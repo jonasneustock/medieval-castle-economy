@@ -1,1 +1,29 @@
-{"name":"medieval-castle-economy","private":true,"version":"0.9.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"tsc --noEmit && vite build && node scripts/precache.mjs","test":"node --import tsx --test tests/*.test.ts","benchmark":"node --import tsx tests/benchmark.ts","assets":"python scripts/pack_assets.py","validate:assets":"python scripts/validate_assets.py","release":"npm run assets && npm run validate:assets && npm test && npm run benchmark && npm run build"},"dependencies":{"phaser":"^3.90.0","react":"^19.0.0","react-dom":"^19.0.0"},"devDependencies":{"@types/react":"^19.0.0","@types/react-dom":"^19.0.0","typescript":"^5.8.0","vite":"^6.2.0","tsx":"^4.19.0"}}
+{
+  "name": "medieval-castle-economy",
+  "private": true,
+  "version": "0.9.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/precache.mjs",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "benchmark": "node --import tsx tests/benchmark.ts",
+    "assets": "python scripts/pack_assets.py",
+    "validate:assets": "python scripts/validate_assets.py",
+    "release": "npm run assets && npm run validate:assets && npm test && npm run benchmark && npm run build",
+    "postinstall": "node scripts/restore-runtime-assets.mjs",
+    "assets:restore": "node scripts/restore-runtime-assets.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0",
+    "tsx": "^4.19.0"
+  }
+}

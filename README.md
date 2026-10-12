@@ -60,6 +60,9 @@ No public open-source license has been selected. Original source and artwork are
 
 Known art detail gap: fishing, livestock and textile-specific work loops still reuse generic farmer/processor actions; dedicated activity animations and the final integrated art audit remain incomplete.
 
-## Editable artwork masters
 
-This GitHub code snapshot includes production artwork, prompts and runtime assets. High-resolution editable PNG/OpenRaster masters remain in the owner's saved Medieval_Castle_Economy_0.9.0_Development.zip handoff archive (SHA-256 47e2a86bc295b2f67205fabe318356d9e767e7cec38cfbe5b81667f31161008b). Restore its art/source folder before running original-generation exporters or a full source-art audit. Those masters are excluded from this code push to avoid delaying source delivery.
+### Runtime image packaging
+
+The remaining worker frames, icons and environmental images are stored losslessly in `art/runtime/remaining-images.json.gz`. `npm ci` automatically restores and verifies all 510 archived paths using their original Git blob hashes. This archive contains 244 unique images; the larger atlases and building images are committed directly. No network is needed for restoration. If install scripts were disabled, run `npm run assets:restore` before development, validation or serving the prebuilt `dist` directory.
+
+This is development version 0.9.0, not the completed first release. Editable high-resolution artwork masters remain in the saved development ZIP. See `docs/RELEASE_STATUS.md` for outstanding acceptance checks.
