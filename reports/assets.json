@@ -1,0 +1,12 @@
+{
+  "assets": 294,
+  "required": 236,
+  "editableSourceFiles": 61,
+  "atlasSize": [
+    2048,
+    4096
+  ],
+  "errors": [],
+  "warnings": [],
+  "visualReview": "Individual building/event images and worker contact sheets reviewed during generation. Integrated Phaser/browser visual review still required."
+}

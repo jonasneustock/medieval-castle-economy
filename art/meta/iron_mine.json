@@ -1,0 +1,30 @@
+{
+  "id": "iron_mine",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: final production browser game building sprite. Create ONE isolated original hand-painted medieval 2D isometric building asset, exact 2:1 ground projection viewed from southeast showing front and right side. Match the reference visual style of rich fine painterly textures, cream limestone, weathered oak, moss/sage accents, subdued terracotta roofs. Warm upper-left lighting, crisp readable silhouette at 256px. Fully TRANSPARENT background and transparent surrounding space. Entire asset fully visible and centered, no labels, no text, no watermark, no user interface. Not 3D render, not pixel art, not vector. Building and specifically needed profession props only, no extraneous landscape, no baked rectangular grass terrain slab. Ground footprint fits the diamond projection. Subject: A medieval iron mine as a timber-framed mine entrance into a compact gray rocky outcrop, oak roofed lifting winch tower, rail-less mine cart and reddish iron ore pile, wooden support beams and tools. Entire self-contained mine sprite centered with transparent margin, no unrelated terrain.",
+  "source": "art/source/building/iron_mine.png",
+  "source_sha256": "da383a86f607db71be1f6c854b4a413eaa28a04c928830d04bbc2512e7993848",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    3,
+    3
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    178,
+    13,
+    1379,
+    1011
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/iron_mine.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}

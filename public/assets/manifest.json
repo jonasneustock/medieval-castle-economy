@@ -1,0 +1,4421 @@
+{
+  "version": 1,
+  "tileSize": [
+    64,
+    32
+  ],
+  "lighting": "upper-left",
+  "projection": "2:1 isometric",
+  "assets": [
+    {
+      "id": "building/apple_orchard",
+      "file": "/assets/building/apple_orchard.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "965d0acdde98b6481923b255d5422692cca6637f083ee7f000a9f7a864261bb2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/apple_orchard.spring",
+      "file": "/assets/building/apple_orchard.spring.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "261131e74105589a2c58a5cb526a00991d907ff12e7cfed3d7ff60584e7f904f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/apple_orchard.summer",
+      "file": "/assets/building/apple_orchard.summer.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "91ba1df79757ac1c387d5b0a01a917ca0f99529686bce170c17235a590e49f8b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/apple_orchard.winter",
+      "file": "/assets/building/apple_orchard.winter.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "19067473ec8f4cc280de21e0b042c3f243d5aa98deb82556340e6f1ee1a0ea9e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/bakery",
+      "file": "/assets/building/bakery.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0894fc09aa7e07128755844a82335309c4039c70c4b0041111cefb37c3b60582",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/brewery",
+      "file": "/assets/building/brewery.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3d83f617b143d0bcbf03727393a006b6dfbde409f527c6de6d67eaddf900bd00",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/chapel",
+      "file": "/assets/building/chapel.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "14f5196ae4de49143d3aba4ba4493aa4b5feb9a48eb2499a9fa098637c7ebccb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/cheesemaker",
+      "file": "/assets/building/cheesemaker.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f8153e90fdcc6427860f3912a90346dbb35179f7972b04f2fd2bf2d3fd7cfa0d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/coal_mine",
+      "file": "/assets/building/coal_mine.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "97355a91ff9b9af3cf408c431fc818b4fcf1076341c29b215e0ce81cac4811bd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/dairy_farm",
+      "file": "/assets/building/dairy_farm.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f2caeceaadc01f60dbcb7bd79df50bf0ff6525a31f518a810f322a3753f1dd08",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/fairground",
+      "file": "/assets/building/fairground.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "48c5ebb27b597f807f4282d2e6db731a8ce20e381f22c7e183a1b3880c987497",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/fishing_hut",
+      "file": "/assets/building/fishing_hut.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c112476c5de109e90163b7ff9c1ee3a15f80fa8609538e1f7186bdd6d047b62b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/gatehouse",
+      "file": "/assets/building/gatehouse.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "88e9eea3c5b00cafa2a562dfd9810e8e91c7b9b3531b8b232b8290cab1250e87",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/granary",
+      "file": "/assets/building/granary.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d1b84c19958f6363d85ff81bccabb09990d581c7397d7363ba47a698d40fa681",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hop_farm",
+      "file": "/assets/building/hop_farm.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "ef6df7ecc072d7e7f915cbad6df9327b415d0040792d140c707ee8ec5dc2bf0e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hop_farm.spring",
+      "file": "/assets/building/hop_farm.spring.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "815b10a061f0a3312abb7a4028c77f85cac73f43d20760aef50c5a3a6a1c712a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hop_farm.summer",
+      "file": "/assets/building/hop_farm.summer.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1a9bdc6dc2fd742d0e753ed4b69389865335f92eb7d0f4095a1f5b2c0c0b4d25",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hop_farm.winter",
+      "file": "/assets/building/hop_farm.winter.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "cd536fcc8edb51aef1fba025b17e6755f8eb6fbbef70296857ea4d3c3864a75c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hovel",
+      "file": "/assets/building/hovel.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c1b7c8af8bb553bb98670e498044e4060f54f2da1319bb93b925b7715a1c34f5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/hunting_lodge",
+      "file": "/assets/building/hunting_lodge.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "768c0fb9c0a043b24646b2b092b0963909837b3a3d87a136cc1185a4248c60fa",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/iron_mine",
+      "file": "/assets/building/iron_mine.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9202ea0860eeed793546f14271326ff02859a9dfd5779e581edf10a3bf0075b3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/keep",
+      "file": "/assets/building/keep.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e766cc2f584d4aae66a5e52649ed2d1bd49b8f0086cb3f7cf4cbe7cc52827b62",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/marketplace",
+      "file": "/assets/building/marketplace.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "77d2e0c5376381d15ad524ea4539b01533434cf7d35491ebc4d0ba0340d9798b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/mill.base",
+      "file": "/assets/building/mill.base.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "741dc18c2733ef830b5f43c555ff3a47c314a805863367071ce399b50c95dc56",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/mill",
+      "file": "/assets/building/mill.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "701c6208cc98154484a5825e3a2f3a96fac923a799b980a2460d1c0ebea8e586",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/quarry",
+      "file": "/assets/building/quarry.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "30f9cdd4010ee137acfe2d104966e13bbe95c29fee9091841b4b2ef63a201dcb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/road",
+      "file": "/assets/building/road.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3897541f911071358f1ad925031a20a1e1571752ddcd1f9c828d115894dd78ab",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/sheep_farm",
+      "file": "/assets/building/sheep_farm.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1f6aada9a3c1a59adb80530157b5efb34878d27fa3d7f9a9124f0b80b4959731",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/smelter",
+      "file": "/assets/building/smelter.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "cb1ac1478ef638049cb65bc76d180ea9f90644f1d192271e7bcd3e62e624a878",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/stockpile",
+      "file": "/assets/building/stockpile.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "fd9db43414672d474841972ea31e0cf39d08cb962a06926e65c820eedd557d42",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/tavern",
+      "file": "/assets/building/tavern.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a73e24ff0335acbeef7d14962974b4ad3163f3dd4aefabf52acbe0889b7c9c7c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/toolsmith",
+      "file": "/assets/building/toolsmith.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "10993771c03fa46ade7617579738f57fb9d8a8f35c82f0cc9a18ccc61a79c7ca",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/tower",
+      "file": "/assets/building/tower.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7172f8e5cbb196482a6c89f50d153ef6dfb17afc766e5c003ef59fdf273ba249",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/treasury",
+      "file": "/assets/building/treasury.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5386e6b6cd16f180e1701662195358ac44b3b2f0be069fb8b944e764b49d7adb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/wall",
+      "file": "/assets/building/wall.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "6a75ee0a4a9507735b9a29fcf90f020baecb1d4ea3e3646b294e54f96cc8fdd2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/weaver",
+      "file": "/assets/building/weaver.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "43bc915ef4d2fec194b1420dabdfc1e5d69654564bd0dbfbcfbdae747b09125d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/wheat_farm",
+      "file": "/assets/building/wheat_farm.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0971dad8e1b729e8c13a304301e55ddb3a0c82ffbf4afa7f926f3606c6313c50",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/wheat_farm.spring",
+      "file": "/assets/building/wheat_farm.spring.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e7baa30a1f27774432a5381aed9fba0cc8eece2e1eb47ac489ff834969adf00a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/wheat_farm.summer",
+      "file": "/assets/building/wheat_farm.summer.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9c39dbc58f4568fa71089f5530e433db3fc672c1d4653f415ce9760651dfc540",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/wheat_farm.winter",
+      "file": "/assets/building/wheat_farm.winter.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "57a7022ccc50f1e45ebe2f75787cd3a72059107f704b1478eb5baa0444055755",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "building/woodcutter",
+      "file": "/assets/building/woodcutter.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "4f3e83889bdfdf315f13e325897d968352dee5f221951884ab7b59338ccd0f94",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "effects/mill_rotor",
+      "file": "/assets/effects/mill_rotor.png",
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5234375,
+        0.375
+      ],
+      "sha256": "a0334704c8a7e9f4580c93cb1826037437172a621c3f29809a22815b14040af1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/ale",
+      "file": "/assets/resource/ale.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a0396b6c3a9a87e4243596138e5dad8bec66506af262241258edf400921be38b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/apples",
+      "file": "/assets/resource/apples.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "e49e2989797756640cbbcf78b6d8c24c2404adb4aaedf08e1c96b78ee9197546",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/bread",
+      "file": "/assets/resource/bread.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "2d832305aa8576bf7114945777ba593bb19089ebb8ecadc3007964a7a8714f47",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/cheese",
+      "file": "/assets/resource/cheese.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5c3ad985646fafc5b16a8449e0b6a376ea164434ac3ee6d23ef295776b57d173",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/cloth",
+      "file": "/assets/resource/cloth.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "93d196b5343a34fa261795f7f82658097822b7f7246a5731adef712d897af607",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/coal",
+      "file": "/assets/resource/coal.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "9806c39fd98f982680fb11ac4633731c6ba8f7c7cfeebea7e0b367cd941bd9ef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/fish",
+      "file": "/assets/resource/fish.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "abda6e02e87689c94fd8835973d2a31df00cc6f2d734d24e4bfaae3156ed8818",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/flour",
+      "file": "/assets/resource/flour.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "de620ae176fa86190a23f42b5eecdb59123ddc9bd6e5430f5aa8597a2599a7c8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/gold",
+      "file": "/assets/resource/gold.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "b9d4fdf85e7096a810097ad535c6bc61c9808b8fcb005197924ae7f0b9a52760",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/hops",
+      "file": "/assets/resource/hops.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "e3dd1329554d25c26760799d43948ffc405ff804572a487568779cc748a14ba3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/iron",
+      "file": "/assets/resource/iron.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "acd71b72dfb16bc434e21b122feaf3ca2392ae311a4ea3fae24c5e33499c714d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/iron_ore",
+      "file": "/assets/resource/iron_ore.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "36449bfa99edd61100565bb6c01b5e5e5d5051195a414aed78870e0daaf63d77",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/meat",
+      "file": "/assets/resource/meat.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "cf7c5ff8312f222a597cec6c5bfc923375cf2044e3a8321705ec914aaa391556",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/milk",
+      "file": "/assets/resource/milk.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "052e55139929046ceb35a603d1306c1d9426c2d449901ab49a8e539fd4ba6fd0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/stone",
+      "file": "/assets/resource/stone.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "e529fb8433fc6510d0e46b45b919384e642de3d3af7a1c93c31964b808e84a34",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/tools",
+      "file": "/assets/resource/tools.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a28f827dcd8c9a2049556bdbe4b6434b46a5fb6408e0f35c547b15d06cf5b804",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/wheat",
+      "file": "/assets/resource/wheat.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "53bd0d773e8de2bdcc083d038ea367e126783cb4082b244abf497b2e6fa86e36",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/wood",
+      "file": "/assets/resource/wood.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "0aa1cb5e3665ad443296236bf4afc500d4b1d38be45d5b31ce2af4e9598f587b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "resource/wool",
+      "file": "/assets/resource/wool.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "3128fb4745096d083c4baf7ed37ad094870547e8c5b2167f6dab7f3b7292b0a0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/coal.autumn",
+      "file": "/assets/terrain/coal.autumn.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "249b6b53a7411c41e319bf6087aa7a57faaef745a6104ec81a30be2e997d59f1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/coal",
+      "file": "/assets/terrain/coal.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a77de138690b004c625fcda0501313143bea155fae341276919bb31465bbf818",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/coal.spring",
+      "file": "/assets/terrain/coal.spring.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "95fbab37448fd473cdac099cbdcb2731839e8cea3e36b22c22edc36f51174e53",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/coal.summer",
+      "file": "/assets/terrain/coal.summer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a77de138690b004c625fcda0501313143bea155fae341276919bb31465bbf818",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/coal.winter",
+      "file": "/assets/terrain/coal.winter.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "854e6f638d2116db52bdda8d67095c3b4bde9bca3474b3de4a70d633fe5beca8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/cow",
+      "file": "/assets/terrain/cow.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "db190675c13aeefb7c58db4e8c0f36d345bce786b19b26d6f5419394be24d455",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/deer",
+      "file": "/assets/terrain/deer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "13540037c974e29a7ce285d2999f4543d383364130bc202207c29c1e4b6fcb9b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/farmland.autumn",
+      "file": "/assets/terrain/farmland.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "14374e559495a0038c3b335c8e862fbc48fecf70b870837c8348a7e654d209ec",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/farmland",
+      "file": "/assets/terrain/farmland.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "42b777c11664125f4db880d4b0b29bfb5648ce466e3b10948bb01c9f9965662f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/farmland.spring",
+      "file": "/assets/terrain/farmland.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "00a576baf93f8ef378d60ff0ab10abbf9f6fdb0ec9333a3857f0974282296f67",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/farmland.summer",
+      "file": "/assets/terrain/farmland.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "42b777c11664125f4db880d4b0b29bfb5648ce466e3b10948bb01c9f9965662f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/farmland.winter",
+      "file": "/assets/terrain/farmland.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "ae37fc713305eac6ad0ec24622d9b53aa406259a7682d24b2a550616a879b3bf",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/grass.autumn",
+      "file": "/assets/terrain/grass.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "c951e542c54889b7328bff3fddde00960477bf91a6d499c4638f3a252dd0c74f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/grass",
+      "file": "/assets/terrain/grass.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "74290ce438fdaebaa3a293c67d4642a3f7d9374a64accab175537d96a917b24b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/grass.spring",
+      "file": "/assets/terrain/grass.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "82e6d4b3773516d19a61fe8a531ff2a88281619a50d37d154e061e142e075a24",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/grass.summer",
+      "file": "/assets/terrain/grass.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "74290ce438fdaebaa3a293c67d4642a3f7d9374a64accab175537d96a917b24b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/grass.winter",
+      "file": "/assets/terrain/grass.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "4d4fe1866d6fd883c6296a87c355660e5bfc3aeb98fd2a83274c2826f2786222",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/hops.autumn",
+      "file": "/assets/terrain/hops.autumn.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "c908748fb944797bd36daa4b7ef7dd10007265bb6a6418dd68fbf750922eb69a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/hops.spring",
+      "file": "/assets/terrain/hops.spring.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "810d047813e2297bd33fb1933afddc97cbf1d17799da625f8cd7885749d7bb26",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/hops.summer",
+      "file": "/assets/terrain/hops.summer.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "8b52ec3b7ce6940e431701f614765d10fc2a4e73a105c4173621849ba2b5149d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/hops.winter",
+      "file": "/assets/terrain/hops.winter.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a09e9a5ef1803000c7cf6a85c7227d225a0ac3a4b6bdc0e4d3d29d7cd8627b4d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/iron_ore.autumn",
+      "file": "/assets/terrain/iron_ore.autumn.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "6b4e325d6486ae9374696e3bee23ce876bc50f2a899a53f7afd5206790602e34",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/iron_ore",
+      "file": "/assets/terrain/iron_ore.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "393d72c92eb7d8fff3e5ba37fb6d45a0cc1cb1b0597b97cb470b75e8f1f589e6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/iron_ore.spring",
+      "file": "/assets/terrain/iron_ore.spring.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "be9458bd00fe16e6e266404c6fc48260e4df932c8d9e6edbe0380995e87926b5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/iron_ore.summer",
+      "file": "/assets/terrain/iron_ore.summer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "393d72c92eb7d8fff3e5ba37fb6d45a0cc1cb1b0597b97cb470b75e8f1f589e6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/iron_ore.winter",
+      "file": "/assets/terrain/iron_ore.winter.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "857fa3a9b10a1f1499f308bb6dec68e6ef71f7fec60a5f2d8f9ab33c22f1307b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/leaves",
+      "file": "/assets/terrain/leaves.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5c6b8ee047b166a1244f28e25c8eeefca17239819b12ff030abce480786c51a6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/oak.autumn",
+      "file": "/assets/terrain/oak.autumn.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "d2aa8fe463c7487ba6f0e038f4df20404c78704ff5df8d46aad9abdbbae3b077",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/oak",
+      "file": "/assets/terrain/oak.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "32144f4b99010f402220f74f46c1cc6685c098768261ce5d7098fbdaf92490d0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/oak.spring",
+      "file": "/assets/terrain/oak.spring.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "f2e81fa2bfc12e70f598cd8bf3685f8cbc5ae0adc9f11a06e30f385c6e1bf7c0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/oak.summer",
+      "file": "/assets/terrain/oak.summer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "32144f4b99010f402220f74f46c1cc6685c098768261ce5d7098fbdaf92490d0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/oak.winter",
+      "file": "/assets/terrain/oak.winter.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "16e83531142cfb34a47da10ebaa69007e529d5bafba1afb24af2288b312a5c49",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/orchard.autumn",
+      "file": "/assets/terrain/orchard.autumn.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "712092cf874ac8dbb36a26d964220abdf0dc37d6f24936b7def363f352d0ea74",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/orchard.spring",
+      "file": "/assets/terrain/orchard.spring.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "73079b985b5acd97c7b3bd90a616fa519d508a7067c49b376f84e2e893c28377",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/orchard.summer",
+      "file": "/assets/terrain/orchard.summer.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "c3c0d096654c4e4b3aef49ab6ad60300882e5940a3fadb2179e3d1548e247aad",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/orchard.winter",
+      "file": "/assets/terrain/orchard.winter.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "75329068b56acf46a760c3579c86ea5fa21a903a002f76fd2ecabbc93e982277",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/pine.autumn",
+      "file": "/assets/terrain/pine.autumn.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "80962f436bd04dd2d75340be5895bfb9ca8682da6259215c357fe54a2f55dad8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/pine",
+      "file": "/assets/terrain/pine.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5350350a09ad5cf5f16cd5d218c067bb0c488dd37457d2252da2d576d767d915",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/pine.spring",
+      "file": "/assets/terrain/pine.spring.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "3ba86058c1f718f221aef9e96b8a8b34e989d39eff7e416ad37c103f9711c8f8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/pine.summer",
+      "file": "/assets/terrain/pine.summer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5350350a09ad5cf5f16cd5d218c067bb0c488dd37457d2252da2d576d767d915",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/pine.winter",
+      "file": "/assets/terrain/pine.winter.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "acee4eee97888d8c01e0bebbaa980e3342d1386ee0bfb66030d127fd5bf9886a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/road.autumn",
+      "file": "/assets/terrain/road.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "6f9586f5be3d2de1a84f438eed034344871751234d544befe49afb92816626df",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/road",
+      "file": "/assets/terrain/road.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "05fdad16fb09d21ed3c4a16168d91f8ae288f3f589881887a130f5ac5cdbdfc9",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/road.spring",
+      "file": "/assets/terrain/road.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "d6caece33c659b2d10b75419a8d2079d5db5c1b4b6db93104989c262e9e871a9",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/road.summer",
+      "file": "/assets/terrain/road.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "05fdad16fb09d21ed3c4a16168d91f8ae288f3f589881887a130f5ac5cdbdfc9",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/road.winter",
+      "file": "/assets/terrain/road.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "2f020f467115fe444b72472b2b2731b6df7e310609d5bdc4cb675872977cb4e4",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/sheep",
+      "file": "/assets/terrain/sheep.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "85218bc814e57a7daff697531c8e4e3993d0727db36f40b946f52fe5ce3879d5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/shore.autumn",
+      "file": "/assets/terrain/shore.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "aaab90c79a20f877b2aa6284372664a93ff890b6af002bd44bc7c49791a417d1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/shore",
+      "file": "/assets/terrain/shore.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "99f5ff2081ae6365d9eb7ec3006433737143a96203f305ca766bae3d5a63ffd5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/shore.spring",
+      "file": "/assets/terrain/shore.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5107c7af862bbc39aae3b91c4720f79769e2bc10a44a080b192a3aa4739864ad",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/shore.summer",
+      "file": "/assets/terrain/shore.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "99f5ff2081ae6365d9eb7ec3006433737143a96203f305ca766bae3d5a63ffd5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/shore.winter",
+      "file": "/assets/terrain/shore.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "0c85222960583177d46db7e15d9b7515847ce119c39d3e9d25d61a76443884da",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/snow",
+      "file": "/assets/terrain/snow.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "40f8f3c2cf183dd72df939a9df34620aa48724d2fe2a6eb3c8a0497787194b2e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/snow_overlay",
+      "file": "/assets/terrain/snow_overlay.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "6f15da07719a5e0b3343f3289e97af1eda9dac0dc5ebeb45be9ae9897a434ea6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/soil.autumn",
+      "file": "/assets/terrain/soil.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "3147d50328dac1883100eb3e2fcb5b8d4f74cd76ee705d824720a77e6137c1df",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/soil",
+      "file": "/assets/terrain/soil.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5f1cf4a8ddf1462f0442c5f7f9fd150640b13547b0102db549b9651440d64a2d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/soil.spring",
+      "file": "/assets/terrain/soil.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "0d856b5faf4c90eb46a79297a2ff175a7b3f56dfd828ef937a83703ef7550e20",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/soil.summer",
+      "file": "/assets/terrain/soil.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5f1cf4a8ddf1462f0442c5f7f9fd150640b13547b0102db549b9651440d64a2d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/soil.winter",
+      "file": "/assets/terrain/soil.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "aba9a36ce60e33db1e9a2308dd19b7dd9678e1789ee5211f56100f373a0b3c71",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/stone.autumn",
+      "file": "/assets/terrain/stone.autumn.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "89a4a60ad455f122f7d69243892f3b6e3c5f5102ae4cac83a20bd93ea8169789",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/stone",
+      "file": "/assets/terrain/stone.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "419d5cb0b37dba33ebcf34c4533d6e1afb65df465b923331d3770970fecd5af3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/stone.spring",
+      "file": "/assets/terrain/stone.spring.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "e83fcff671a6f5472df17238a9573ccca89307c0c709cd288301af47da46de98",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/stone.summer",
+      "file": "/assets/terrain/stone.summer.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "419d5cb0b37dba33ebcf34c4533d6e1afb65df465b923331d3770970fecd5af3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/stone.winter",
+      "file": "/assets/terrain/stone.winter.png",
+      "size": [
+        128,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "cdc22480bb11cd9878ec444775fbe7b81cffd1dc662e76d2b3bf8b2865d0f42e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/water.autumn",
+      "file": "/assets/terrain/water.autumn.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "f308c18f53858ef2df32d8cbf97848bbeeb12cdc2ca31d5d327062bbd7d2d135",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/water",
+      "file": "/assets/terrain/water.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "cd1416f2af535b7615d65885e1104f8ccba059981a3794fb38b07ca58ba04ae2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/water.spring",
+      "file": "/assets/terrain/water.spring.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "09a6f22f1799432fa058feb5ca287553f556f4be9a0056525da545a98d52d3a2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/water.summer",
+      "file": "/assets/terrain/water.summer.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "cd1416f2af535b7615d65885e1104f8ccba059981a3794fb38b07ca58ba04ae2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/water.winter",
+      "file": "/assets/terrain/water.winter.png",
+      "size": [
+        128,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "0762fe6bbf2179ca4bee63d1be4ada5d36bebe5b5f830dc8404a164e4cad856c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/wheat.autumn",
+      "file": "/assets/terrain/wheat.autumn.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "f081d81316cab9b2d22be92b02f88f3728fbc6beb9a1f677c4189e24911f090a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/wheat.spring",
+      "file": "/assets/terrain/wheat.spring.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "1daa0937faa53e33054a11a93de0c31105fea63b99a1e233938574823fb526a6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/wheat.summer",
+      "file": "/assets/terrain/wheat.summer.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "a16ec94cd127aca161b3c7d1f18ae35f3262a4f7439c7cd2f20e21733dff791f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "terrain/wheat.winter",
+      "file": "/assets/terrain/wheat.winter.png",
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "ce4b7abfcd052240d871035c04fd6e67523ff0eb4e5995509d6fcf9add5d08f6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/ale_service",
+      "file": "/assets/ui/ale_service.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "d288ed3b2ea488daf415ccbfbb6fb618b3c4918d86ae207b281db2987cbcfbef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/entertainment",
+      "file": "/assets/ui/entertainment.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "babc063cc96d6946930d15c20fd51660592495577c8f6d2a36f6cb896919d433",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/food",
+      "file": "/assets/ui/food.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "21facfc4846d74890b62db1c7d6119520e2cb764411d0ba61bc74dd9bc042484",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/housing",
+      "file": "/assets/ui/housing.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "c0ce3cb559bf18f156a0db6416ff66f836f9ec031c160a3bd6d3b8d87ef2923d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/pause",
+      "file": "/assets/ui/pause.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "4c92e94582955c5627877424e44220e62ec6445f9628a5d3e28c9eac9532e0e7",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/popularity",
+      "file": "/assets/ui/popularity.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "70a9601d571359d3acbb8315500de296274c7a434b09bf8fc1062144cf21341e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/population",
+      "file": "/assets/ui/population.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "0812ee5b24234ae8d6933d21843e0381d3e75da43fd5131a22601d0f5f3499ce",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/religion",
+      "file": "/assets/ui/religion.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "73ca675c11d7bf0d211ba5775fa848f2744149f24cafd1ed10c8f4197387160b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/stage_city",
+      "file": "/assets/ui/stage_city.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "5c66bd661b0cb4c66034de385542e1bf74353798bc736c9be65184d9b5f23247",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/stage_hamlet",
+      "file": "/assets/ui/stage_hamlet.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "c7ac045e39547db41c77d9a6cad07b782d6ef1f408161b88698206e0a97db95d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/stage_town",
+      "file": "/assets/ui/stage_town.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "e3ce94d72d2bbeb21863bcff7174b7b593d78dbdc840419c7e8e05edd2a56b0b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/stage_village",
+      "file": "/assets/ui/stage_village.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "200c855e27e33cec7d5c1653cbcac882ab42f2ee59820a3e0136fe4b1a7459bb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/storage",
+      "file": "/assets/ui/storage.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "b1609fd1ed509915e358d3d564f787c47a0c9b3e78445f74a00d01d82cde998e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/tax",
+      "file": "/assets/ui/tax.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "147a508096a566d6f8222ea943ad6a1e72f1beec1c73b08ed300597c2e7da55d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/transport",
+      "file": "/assets/ui/transport.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "082140ca9757ecca7b3894cfd2f78f04a9b6f088948e42c4b3bd1eadf80102e0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "ui/worker",
+      "file": "/assets/ui/worker.png",
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sha256": "558ff0e22c9bebf5ae947b43e1651330566e6aa8e9916056a37f3bcd2f599440",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/collect.SE.0",
+      "file": "/assets/worker/collect.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7a5a082160315765da106906ae6296c478ec1a12d5aa7d6a5f04c687a8016a0e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/collect.SE.1",
+      "file": "/assets/worker/collect.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "67fe40a82cbe93755962bb09f41c8bbd2bbb4d26a75c622e2200e32f397439d0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/collect.SE.2",
+      "file": "/assets/worker/collect.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "55395bca566b0c24d1be0a8a9bdaa7da318d17f61e4fe988ee600ab96e9dd68c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/collect.SE.3",
+      "file": "/assets/worker/collect.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "2d74003bf11d643026a8ffdb283056fdfbab03018f447c89e65a1dad559af91e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.collect.SE.0",
+      "file": "/assets/worker/hunter.collect.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "53b327500ae88af509ae8d7578d72f60aeb11b8306c2737e0aa680878d1c9e54",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.collect.SE.1",
+      "file": "/assets/worker/hunter.collect.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "ab2ebfc713f7889e8bfe77ce58e3a2cdc35dacbe14af66372366ed66e57c40a7",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.collect.SE.2",
+      "file": "/assets/worker/hunter.collect.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "34fcc43fc51061e407d8893800a691333757d10f87f4049db2207212a97a8af2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.collect.SE.3",
+      "file": "/assets/worker/hunter.collect.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "8857f2cbc63b6aceca2178699660bf283b86cf700404d4df5b5ceebbc1315306",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.idle.SE.0",
+      "file": "/assets/worker/hunter.idle.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7f6963ddc9ead8fa89b75b24a167fb412353a4d4b78604577fc1143902e4dfeb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.idle.SE.1",
+      "file": "/assets/worker/hunter.idle.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5ae4b1eb91be77d8af0d3e2355f7f07f11eb2cd31c2c135350f4abae93a84a92",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.idle.SE.2",
+      "file": "/assets/worker/hunter.idle.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5cc19cde63063e073f6d355147251e1bcb21181fdb3bb5a8e76cc80d3961e416",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.idle.SE.3",
+      "file": "/assets/worker/hunter.idle.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c7774b74d27ba1917884c6c4e0e1fb8b7120f380056f1546d15a002e6ac8db45",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.unload.SE.0",
+      "file": "/assets/worker/hunter.unload.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1514769e8c180396ee199186a3e4d8049cbc6311f2f6a7dd10571ddbccb0c85d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.unload.SE.1",
+      "file": "/assets/worker/hunter.unload.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "db5d794d0234eb76a3e69b9533b836b98a57a92091a5418a77d2f6a9135de90a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.unload.SE.2",
+      "file": "/assets/worker/hunter.unload.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "660fc8cc223ada42cfe76b430cdc49d03931c13fe1b417f7e530d08183d8a716",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.unload.SE.3",
+      "file": "/assets/worker/hunter.unload.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "befce5eb53b6f0b697a2a1022694a28b471662fd776fcc7f6087b3aae72be322",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NE.0",
+      "file": "/assets/worker/hunter.walk.NE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "31045f41adb2d80bdfe03d503baa09e30165db1a189093f2fb7b7eb7b1e09932",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NE.1",
+      "file": "/assets/worker/hunter.walk.NE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "19e2025f7f52d026b7e25ae6ba71d05f635aefa0aeafc1b780c653dc38e33161",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NE.2",
+      "file": "/assets/worker/hunter.walk.NE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "13cd8d43748e94cc8ea8fe6ac4824c868fb41a3173e8329829b89e83ddd0a62f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NE.3",
+      "file": "/assets/worker/hunter.walk.NE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c8b24df98a7d3d748c99d725d93c07f2c47d3009de27015ae501f7cbb36e9dc8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NW.0",
+      "file": "/assets/worker/hunter.walk.NW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9acd6fa4344712399f17ac1de2d59d12a1b0b69423146059ef5c38107553a37f",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NW.1",
+      "file": "/assets/worker/hunter.walk.NW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "4a449984b70dd2673c0ab6632693a7d98c405de96b63caeed7a75d0bc0a6c685",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NW.2",
+      "file": "/assets/worker/hunter.walk.NW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d1181aca4cd916d5c2ee2c194ac7acccd61cfa5871e1019827468afc8ec0efe5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.NW.3",
+      "file": "/assets/worker/hunter.walk.NW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "34beb6a9480288bd15aa6890e74dad7e7e1b5231610f8ae5b66af9b09d4771c3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SE.0",
+      "file": "/assets/worker/hunter.walk.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "187890c1c936c6bdfe4c931864a4d9b07478e8b554b8670089ecac0b53428d19",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SE.1",
+      "file": "/assets/worker/hunter.walk.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a171281eccf949e77066ab6c6edaaa9a90047c106d002bada627e1c2cc2b7992",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SE.2",
+      "file": "/assets/worker/hunter.walk.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a24c3db70734962974b2445e42595e431903d7bd1b2fadc2c352c49e14186a41",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SE.3",
+      "file": "/assets/worker/hunter.walk.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9755a53454e5ad0d29d58fda9c23a96d7aa5d425a5fd23906435d62802f4f8d6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SW.0",
+      "file": "/assets/worker/hunter.walk.SW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "2f5858eead5ebd3355a2483430ebf9fda28c53446ccc681e51b57f52158d7f1d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SW.1",
+      "file": "/assets/worker/hunter.walk.SW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c99402961e93ffcbdcf557d3be25dd6f5dd5bd657f2ddadc14ef26d487051aef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SW.2",
+      "file": "/assets/worker/hunter.walk.SW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "b05f38d18f03642eba0b13a8d2cdae63a38b3e4e07ac166da3fe75b779096d1e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.walk.SW.3",
+      "file": "/assets/worker/hunter.walk.SW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a50b2ad73833a8bc81046b6860e2ffe1ad5dc0e1454cf1550da545cc5acebb49",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.work.SE.0",
+      "file": "/assets/worker/hunter.work.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c5b8e6acf1b70f4a357d489d506b345036c9bb0c5a87a1a1798ba515e63b8f7b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.work.SE.1",
+      "file": "/assets/worker/hunter.work.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7386c90edf7f133ee62af95cd2e81b375afafde27a7dcc86d38e8b680e72edb6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.work.SE.2",
+      "file": "/assets/worker/hunter.work.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c8c445345c4d52bc79b79e919a38f2932f18177ccd10051ef87130e4b37ed77e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/hunter.work.SE.3",
+      "file": "/assets/worker/hunter.work.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c2442ae8bd459512efcdf1e11d6830592cf6cd76b4b504f0ae51f49855de2dde",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/idle.SE.0",
+      "file": "/assets/worker/idle.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "df0b794de8bb1c9e6b0b12510a87bd85baece60012189a80a56c1d68b4331ef4",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/idle.SE.1",
+      "file": "/assets/worker/idle.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "448e7d5db722afdaeb2b32688359085bb6d5324527ed93610c19aae071a7e71b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/idle.SE.2",
+      "file": "/assets/worker/idle.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "fe1ed440e4ae1f1363ea532aa2915bd6a6fe8ecefe1a050672e7f3b18d966dc0",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/idle.SE.3",
+      "file": "/assets/worker/idle.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5cc0e43a7ebddf5591c9789a59ed8a6f09b4fe1edf4343a0ace285fc18ce6608",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.collect.SE.0",
+      "file": "/assets/worker/logger.collect.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "ca9cd1b8f22e231d6eea2fd295d2ee72539f6d6a924bb985c9d564281e8215f2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.collect.SE.1",
+      "file": "/assets/worker/logger.collect.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "57abb81a9ed773364c6cedccdfae6b336a1203d8f354114c7d81fb1c64fff978",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.collect.SE.2",
+      "file": "/assets/worker/logger.collect.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "72944e83b4b6caf0ddc8407ddaed784bb8d5a5f4b3cbdb344e6d35be1bbee0ff",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.collect.SE.3",
+      "file": "/assets/worker/logger.collect.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5a5f08350b37bc5a5fa0c68c2c0dbd354011ebfd44d226dc55c32de166a6357d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.idle.SE.0",
+      "file": "/assets/worker/logger.idle.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "06b025f501ec6e468c9f2a6615b619c069574e5b53e0ef6a67c519b61d40bb84",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.idle.SE.1",
+      "file": "/assets/worker/logger.idle.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "18296cccd64540f65705725c68355593f993267d3ee9c80e58bb85128dccd05b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.idle.SE.2",
+      "file": "/assets/worker/logger.idle.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "79558e8eabd5f20f5bd91acf090ef01a9a4276fb41e138f12a20b307c28c04f6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.idle.SE.3",
+      "file": "/assets/worker/logger.idle.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5dc56b3b23d65882b0cbf0e0f31591e6b7738fa0b544e5812ca2869e5805b20a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.unload.SE.0",
+      "file": "/assets/worker/logger.unload.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f081398a0e88093abc011022bb68cf5871f6c1fa92429ef6b967e1dcd3fda328",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.unload.SE.1",
+      "file": "/assets/worker/logger.unload.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1a7bd42646853cc9c5ea640334096e256e923bb2fb87d06349b649bef50eb586",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.unload.SE.2",
+      "file": "/assets/worker/logger.unload.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a472f012dd4a83368eabcd17bae6c1d5697662f644cd9c53c55ad72efaa9de32",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.unload.SE.3",
+      "file": "/assets/worker/logger.unload.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0e2f6f589fee38c24851775b33e06a1930f0f4c5ae78ff0e140e0a9912324bb4",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NE.0",
+      "file": "/assets/worker/logger.walk.NE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9e13f8f090fa7302891246c4cf6f5ff0aaa174f7e39a5ad0aa53e99dd817281d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NE.1",
+      "file": "/assets/worker/logger.walk.NE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c872884faac87d65cb9812e2380709edba0ab93677f23ab120c1f3737c408775",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NE.2",
+      "file": "/assets/worker/logger.walk.NE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5c424e1832298dcd829b7b7b2bcaf7b69d6ee81a0b5cf71e96528f5049b94f77",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NE.3",
+      "file": "/assets/worker/logger.walk.NE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "216599b14b0df7ce614bf358fdbdeec02ab3a0859840be84483f4b095aabc636",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NW.0",
+      "file": "/assets/worker/logger.walk.NW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "a2879a3e22852badfbd6ea23957f8c0e59fd8fd8d45d97989f32db4ffd803faa",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NW.1",
+      "file": "/assets/worker/logger.walk.NW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d8d2bb53b1f0b28abd7e56dfaf965230c64aba9cf2aff8d890e5fccfbbf71109",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NW.2",
+      "file": "/assets/worker/logger.walk.NW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "24d219bb3a41400c4fafd1636e107a31d816d6086ea6f2392f7c9173f8b6dbd3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.NW.3",
+      "file": "/assets/worker/logger.walk.NW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "569cb47b721891de8bdb7e59c4786fab8b329f951d656800b3eda371d95951ef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SE.0",
+      "file": "/assets/worker/logger.walk.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "eedb1cf6aa3a22f48decde79af6f0a2d0fd3a71486a54a059b2503e9b375441d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SE.1",
+      "file": "/assets/worker/logger.walk.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "15f4443409298b648247922e92b0b8bd44042ad0ca9142b1ffa88c488b7e573b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SE.2",
+      "file": "/assets/worker/logger.walk.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9a8056bcebaa933f350c4bc53afe1b7d0cc904cf5c44bd85df993a16e9a3e4ab",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SE.3",
+      "file": "/assets/worker/logger.walk.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d7d840e2bd8555734161f9cc05467aa3dd7d2bb383cd45bc7f36986a4970b681",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SW.0",
+      "file": "/assets/worker/logger.walk.SW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "02ec88c3928f51d4bfcea149e7133c5102040960ea71d43a3ece38384ee027ef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SW.1",
+      "file": "/assets/worker/logger.walk.SW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5c792edc312e6520689d2c57f5c84112cc931feeb3cc1bdf77698b4fe1912347",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SW.2",
+      "file": "/assets/worker/logger.walk.SW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3f9342e597c544f33adcb5c41b55487b2ca8764406f55c2e59877661befab218",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.walk.SW.3",
+      "file": "/assets/worker/logger.walk.SW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "916a46ca5c51e8cba772f6f22062ed6b39f3f2a62a800e861bed40b739048424",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.work.SE.0",
+      "file": "/assets/worker/logger.work.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0dc9de817b7f2b8c56384273b3e18401b60bdc59036fa9ff2accfee6d8ad9e5e",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.work.SE.1",
+      "file": "/assets/worker/logger.work.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "99ed7df59b92b3ad1953661dde7aceb7f82176492854caedcc6be6234fe589d6",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.work.SE.2",
+      "file": "/assets/worker/logger.work.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "926266be9246e0e70bb3789aa6e82dbc5ea82cecde60b2cac3e30c8f1a234dbd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/logger.work.SE.3",
+      "file": "/assets/worker/logger.work.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "705170ae3cebc549a0d2e977804f195544dabdf010dabf502eef814089addc86",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.collect.SE.0",
+      "file": "/assets/worker/processor.collect.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7b6dd7df0294a198d064959d19378efcefcf5b979c57eda2e95ebcf0a42998bd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.collect.SE.1",
+      "file": "/assets/worker/processor.collect.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "34a7efd1d6f00d7c0d8869aca87e8612f6cceddd718e7b8866435fd01609a899",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.collect.SE.2",
+      "file": "/assets/worker/processor.collect.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f2571e8aafc4b90eae1a6a13be90635642c627689651b2c1f4693308cb9b8960",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.collect.SE.3",
+      "file": "/assets/worker/processor.collect.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1f11b7bc08e15a41af71e3607d071995d3faf1fd003bdd10a7f417246dc7c1c5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.idle.SE.0",
+      "file": "/assets/worker/processor.idle.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3f36ec1c437533e0f15e9901193f2dc7a14d4685c46cd2738bfd01c9f4835a50",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.idle.SE.1",
+      "file": "/assets/worker/processor.idle.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "289812ac20bde940d33a285b8dca906f11b75b9d92898d183c69eceb9b003552",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.idle.SE.2",
+      "file": "/assets/worker/processor.idle.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "cf30cb0e798c17a9daae24330525fbb9bf3006402c22e0443e423505d1fc1d72",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.idle.SE.3",
+      "file": "/assets/worker/processor.idle.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "38cfd5809a379d3d8c13fae9f37dec2e75389c4bb950e41ff87e5ca5a9455b8a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.unload.SE.0",
+      "file": "/assets/worker/processor.unload.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "59dc043edb0f0701398766823277749ef07e9555f18d85035c29c8b0740a6a3c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.unload.SE.1",
+      "file": "/assets/worker/processor.unload.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "238061a8be9e3a2c9a4236c185483f25ee62b694cefafed4764d99f40dc09de4",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.unload.SE.2",
+      "file": "/assets/worker/processor.unload.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "ffbb955c8eac3d2135e5db8669592260d633a8ee7398f3225a044e30fc4d47cd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.unload.SE.3",
+      "file": "/assets/worker/processor.unload.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "29a8f95eafedcbe19772762b81ae6bec6ecd098e2cae0a8b3a2791bc40dfc48d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.work.SE.0",
+      "file": "/assets/worker/processor.work.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "8b5168b797992818a0c43b72add24a24068764349ad82b047d27e4623a16c34c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.work.SE.1",
+      "file": "/assets/worker/processor.work.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5d0c52304b0fe2e6c9ee40bbf91fafb104ce5c1f55089d45f00a20699cf52d0d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.work.SE.2",
+      "file": "/assets/worker/processor.work.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "fed059921548f94911641f32da00914035a008c3934daf9cf971a7385d33498b",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/processor.work.SE.3",
+      "file": "/assets/worker/processor.work.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "994f7e10ea34deafefcd5e2829e68447f9809b49299d807e811fb389d16c00a5",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.collect.SE.0",
+      "file": "/assets/worker/smith.collect.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0918be5d9cecbd0dd6fcd54aad0d70257759268b4f56c4f19c6f8c3f9b430156",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.collect.SE.1",
+      "file": "/assets/worker/smith.collect.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "82da15aa1e3456510a76645f30e7fd27fbe1f9f9063fe71f80e9183b52e7eb58",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.collect.SE.2",
+      "file": "/assets/worker/smith.collect.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "03c1ff756255515b248ed7cf7a55d78e4fb0d4f55d1b6b96a01b3830691e1731",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.collect.SE.3",
+      "file": "/assets/worker/smith.collect.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1ce01793428b1afa9a1bb4dd499b785c89b2a846efde6110ca6f4ca24ce56c9a",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.idle.SE.0",
+      "file": "/assets/worker/smith.idle.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "14ee4ab688c346e590eca0a3cdb8430c0ed6062b30fc0f6664b2cd654b9eb909",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.idle.SE.1",
+      "file": "/assets/worker/smith.idle.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "8a2a11534e888cbfde51623ad125af628bc7cd6809f6d141968468b42c86e091",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.idle.SE.2",
+      "file": "/assets/worker/smith.idle.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d83dc3d40c690e7fe1d94bf39e9f0a4797695bebc070dabdfd90abe046425843",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.idle.SE.3",
+      "file": "/assets/worker/smith.idle.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "8a3abb113bab8ca6308833ad85e0f063b5774351a0a717090036fd43815f81fd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.unload.SE.0",
+      "file": "/assets/worker/smith.unload.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "019594912bd1b68d9925014b03ae16ae34483f32e29fe39303d26fb004dec721",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.unload.SE.1",
+      "file": "/assets/worker/smith.unload.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "adfa1ff89f2a6928e31256139e1a1ecb5dccb01440a753a11b9425c4db72f667",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.unload.SE.2",
+      "file": "/assets/worker/smith.unload.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "5d2c03eb626e5d4c7a135e7c45551502492ba17f1117cfc712db6dfc2c2513f7",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.unload.SE.3",
+      "file": "/assets/worker/smith.unload.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "de771722bbd3496fd5369dd333136442933f201fb925e52ea3a89c3cb5bda23d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NE.0",
+      "file": "/assets/worker/smith.walk.NE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "85519a2b9b42e38afa065f20f6094f5cedac73ff22d24754da54a4be824797a9",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NE.1",
+      "file": "/assets/worker/smith.walk.NE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e0842daa710ef8692f6dffa845ad2c3ae6bd12b6498007e64d0ea30d094d5e0d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NE.2",
+      "file": "/assets/worker/smith.walk.NE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "50cb27fd0817373a1a861720bd8c23a56f6e50f26b68c8186e0f6e935cc38b78",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NE.3",
+      "file": "/assets/worker/smith.walk.NE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "10ff586307f48ac9eea827944d42ba514d56f9340058330e683e862b7d2c7510",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NW.0",
+      "file": "/assets/worker/smith.walk.NW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9c9bd8193b4cf0d78a72493d30dc32668e1992a1ab497e7488700324a53aff35",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NW.1",
+      "file": "/assets/worker/smith.walk.NW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "66e4ab73c545753e90f40b02a1446fe5dd3290450106a74de2f02fec4a3af1ef",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NW.2",
+      "file": "/assets/worker/smith.walk.NW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "94609fe93601bcf5024c58eb712a222f65a3fde85931f5b3a58787631739e4df",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.NW.3",
+      "file": "/assets/worker/smith.walk.NW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "fd533bc6962c866ca7bca306b0cf6b930955c7da019a5c211f3d1e881eebcfd9",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SE.0",
+      "file": "/assets/worker/smith.walk.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "b98cc2dc2efe9a55bcde12e3afaa91ac2758871d80194628f87fca74f2761180",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SE.1",
+      "file": "/assets/worker/smith.walk.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1890695fc7a04f4cb08661972ae8482b61fc57496947a33bbadaf4957193568d",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SE.2",
+      "file": "/assets/worker/smith.walk.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f7c9c912944b0d2c4b6c143331daf6642e31e352d34b09d5345af74ee78ce4bd",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SE.3",
+      "file": "/assets/worker/smith.walk.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0f6f1347f19ff089466b0be5cdd0617d728136fdf638bb191732c86b62e6a2fb",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SW.0",
+      "file": "/assets/worker/smith.walk.SW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c2e6aca38764793777b3ff1d83bd37554d34670aed9ed93e63a6bce1ccbdcf17",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SW.1",
+      "file": "/assets/worker/smith.walk.SW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "dd39a7a4fcdfa73aa9c5f8c433d2798b89dc287699d9cd22c80baa1b1dd38e76",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SW.2",
+      "file": "/assets/worker/smith.walk.SW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "2e2a3e90f050b806fe3837415a334ea0fb946f07944438a49708f25d4976a0fa",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.walk.SW.3",
+      "file": "/assets/worker/smith.walk.SW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e5276b6029ee0cb34d19842d8671b5b7f3056fe142a059fd09e22cd697b2d663",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.work.SE.0",
+      "file": "/assets/worker/smith.work.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "009e03c141ed9591a2eaf980a631fde43dbfc9fac10c753bd43b2ffc17845793",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.work.SE.1",
+      "file": "/assets/worker/smith.work.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "765a852155416106718d963fec6206a9d8cecd3ec9b0111548ab01b1cd2bfcda",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.work.SE.2",
+      "file": "/assets/worker/smith.work.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "94167cc42ef8c63eca7dc52a3abcccbad1a97d551f1f6cebff87bc285b6e7545",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/smith.work.SE.3",
+      "file": "/assets/worker/smith.work.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3b7ba818874ac778e855304ab6f68cf829ac122c5339cf4244bc271cb4e4f926",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/unload.SE.0",
+      "file": "/assets/worker/unload.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "1d6f03afa3fab6e53b968d28684bcbf1faa018328222d9360796e0d8999bb484",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/unload.SE.1",
+      "file": "/assets/worker/unload.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e051d5d5d06ab58d4a182e1d8e8105aebe8ac5213dea2daa9fcfdc07a21eef24",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/unload.SE.2",
+      "file": "/assets/worker/unload.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "3b010088a72c379e605c9da336c904f64add6a921d5b0b12fdc9be1e775e4f7c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/unload.SE.3",
+      "file": "/assets/worker/unload.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c1ef70afa7949aa3926231377bdd95ae528e0b62031af4147f6498e664c82195",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NE.0",
+      "file": "/assets/worker/walk.NE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "2eb7e0af0f1082052372c97a85863fd806ebae3860dfa39bc9486f9d4e19d024",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NE.1",
+      "file": "/assets/worker/walk.NE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "f749ad7747366478e7e77ed13a385afc2aef9d99230d5b7c1c2a195bc72173a3",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NE.2",
+      "file": "/assets/worker/walk.NE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "50499a6d5d08ad90fa9bf062a8017fb74742eacd78021d7b35898318a063a0c1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NE.3",
+      "file": "/assets/worker/walk.NE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "cb7a777018afc4366f71a99bbba69f86d8d4d0d127672d2be3fb2d05e30d49b2",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NW.0",
+      "file": "/assets/worker/walk.NW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "46d1130e0c51f442baf30e4c120a37cb61c494b2f0dd7862b7f8d8f6bf13bfb1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NW.1",
+      "file": "/assets/worker/walk.NW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "2a69f9bf7087e15f56ea0af8447209fbc4900ef073cfff0f332046b35dc6a142",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NW.2",
+      "file": "/assets/worker/walk.NW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "9b417b4f2792e96d2791ce95ab7c75afdb7c0ff6af59b05cd5d2f8e30ff03f44",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.NW.3",
+      "file": "/assets/worker/walk.NW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "c51985da1f06ea8457236054e2d475047e48eeafa7e3931fec83f9ebd931ab00",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SE.0",
+      "file": "/assets/worker/walk.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "b4034b2b881e20f790a21d1375781c5a6d30d85e5ebb98ffedfaa694b908a6d1",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SE.1",
+      "file": "/assets/worker/walk.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "231e1708a51f190f2d0639a92f9b7e3783cb16fb1730708f7422184cd9dbfca8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SE.2",
+      "file": "/assets/worker/walk.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "35d759df529ecc926ae71267fa4c24f636db3fad2d2fb3a44926e00a6b7df979",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SE.3",
+      "file": "/assets/worker/walk.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "dc74308fcd8b087c4dc9755dbbbf1f33bed2a25bacd51ce00945880e4280adbe",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SW.0",
+      "file": "/assets/worker/walk.SW.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "0a8e9238631c657d5ac199cd7a9894bb44fe47358066cc50ecac437044ae475c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SW.1",
+      "file": "/assets/worker/walk.SW.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "8036dccb64afe088bf2b1b34b2e0a6f17cb94e584202949722806b6a1ab7ca45",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SW.2",
+      "file": "/assets/worker/walk.SW.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "042d2319ae08a89b3a0180108272f5090d13cd8b3a9ec94d7be0871d0bacedb8",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/walk.SW.3",
+      "file": "/assets/worker/walk.SW.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "7359bd922f2e6e5201261d35b23cbd609b7ca28076b7aac2b18f844f3ff78c31",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/work.SE.0",
+      "file": "/assets/worker/work.SE.0.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "70327bbc22c15313195e86317bf928ad2d08d1df3dffb559f15988ae97a15a97",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/work.SE.1",
+      "file": "/assets/worker/work.SE.1.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "e689eb7b4c054f127e7a5b057550fd37ad8461fbfe31839084b3316ad27167ed",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/work.SE.2",
+      "file": "/assets/worker/work.SE.2.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "870bdc2b39f7d4cbcd2c5ff6e7f3356bf9f8d637ce9fa18185239a7a93337898",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    },
+    {
+      "id": "worker/work.SE.3",
+      "file": "/assets/worker/work.SE.3.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ],
+      "sha256": "d6d6ef20f90fab395d46a596e2393e4bea91ac71501756c4906983c4498ce71c",
+      "provenance": "Original built-in imagegen artwork; deterministic export, no third-party game sprites",
+      "license": "Project original artwork"
+    }
+  ]
+}

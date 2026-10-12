@@ -1,0 +1,17 @@
+{
+  "id": "drought",
+  "prompt": "Use case: historical-scene. Asset type: original final environmental-event notification illustration for a medieval economic game. Primary request: A peaceful medieval settlement under severe summer drought: cracked ochre soil in the foreground, wilted wheat heads and apple trees, a nearly empty shallow village stream, villagers inspecting the fields in concern, timber houses and cream limestone keep in distant background; hot dusty sky and warm haze. No death or violence. Style/medium: richly detailed original hand-painted 2D medieval story illustration with warm precise brushstrokes, realistic textured materials matching the supplied stylistic reference. Palette natural cream limestone, oak brown, moss greens and terracotta, with weather-appropriate atmospheric color. Composition panoramic landscape 3:1 aspect ratio, wide establishing scene, readable even as a narrow event banner. Fill entire image, no transparency. No text, no lettering, no frame, no watermark, no modern elements, no pixel art, no 3D render. Entirely original image.",
+  "source": "art/source/event/drought.png",
+  "editableSource": "art/source/event/drought.ora",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "frameSize": {
+    "width": 960,
+    "height": 320
+  },
+  "sourceSize": [
+    2172,
+    724
+  ],
+  "export": "assets/events/drought.webp"
+}

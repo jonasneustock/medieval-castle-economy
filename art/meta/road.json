@@ -1,0 +1,35 @@
+{
+  "id": "road",
+  "prompt": "Use case: historical-scene. Generate ONLY a single FLAT medieval cobblestone ROAD TILE for an isometric game. It must be an isolated flat rhombus/diamond of pale limestone cobblestones, twice as wide as high, 2:1 isometric projection. The whole asset is the ground paving surface itself. No buildings, houses, structures, vegetation, boxes, terrain thickness, posts, or raised objects of any kind. Each little irregular stone lies flush in the flat diamond. Rich hand-painted limestone texture, muted mossy earth joints, upper-left light. True alpha transparent outside the diamond. No glow, no brown background, no opaque shadow, no backdrop. Entire diamond visible and centered, generous blank transparent margins. Original artwork, no text, no watermark, no pixel art, no 3D rendering.\n",
+  "source": "art/source/building/road.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 1,
+    "height": 1
+  },
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaBounds": [
+    105,
+    71,
+    1668,
+    844
+  ],
+  "exportBounds": [
+    96,
+    208,
+    160,
+    240
+  ]
+}

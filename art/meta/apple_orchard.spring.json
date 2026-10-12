@@ -1,0 +1,54 @@
+{
+  "id": "apple_orchard.spring",
+  "prompt": "Use case: lighting-weather seasonal state edit. Edit only seasonal vegetation and ground coverings in this exact original hand-painted isometric game sprite. Preserve the EXACT hut/shed architecture, gate, fences, barrel/baskets, positions of trees/crop rows, camera, 2:1 projection, lighting, footprint and framing. Keep alpha background truly transparent. Do not add background, people, text, scene elements, or change layout. Maintain original painterly detail and palette. SPRING apple orchard: same four tree trunks and locations, sparse small light green leaf buds and white apple blossom; remove all red apples and fruit in baskets, keep baskets. Structure geometry exactly unchanged.\n",
+  "source": "art/source/building/apple_orchard.spring.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 4,
+    "height": 4
+  },
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaBounds": [
+    246,
+    6,
+    1529,
+    864
+  ],
+  "exportBounds": [
+    8,
+    79,
+    249,
+    241
+  ],
+  "derivedFrom": "art/source/building/apple_orchard.png",
+  "generationIntent": "seasonal-state-edit",
+  "alignment": "Full source resized with original reference scale; alpha padding retained to avoid seasonal edge clipping",
+  "sourceCropBounds": [
+    247,
+    8,
+    1527,
+    860
+  ],
+  "season": "spring",
+  "geometryNote": "Fences, gate, shed and crop/tree positions retained visually. Generative edits are not pixel-identical.",
+  "exportScaledSourceSize": [
+    333,
+    167
+  ],
+  "exportOffset": [
+    -38,
+    78
+  ]
+}

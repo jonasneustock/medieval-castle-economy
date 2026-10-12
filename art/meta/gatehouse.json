@@ -1,0 +1,37 @@
+{
+  "id": "gatehouse",
+  "prompt": "Use case: historical-scene. Asset type: final isolated game building sprite. Primary request: A medieval castle gatehouse on a 3 by 2 footprint, broad open arched pass-through gateway flanked by two stout square crenellated cream limestone towers, oak portcullis visibly raised, red banners, stone parapet over the central passage. Gate passage must visibly be open. No people. Style/medium: richly detailed original hand-painted 2D medieval strategy game artwork, small precise brushstrokes and charming realistic materials, same warm painterly style as reference. Camera true orthographic isometric 2:1 ground projection; see two adjacent facades, no perspective convergence. Lighting upper left. Palette cream limestone, oak brown, terracotta, moss greens. Composition centered whole building with transparent margin, isolated actual transparent background; only structural footprint, no surrounding terrain tile or background. No text, frame, watermark, modern elements, pixel art, or 3D render. ONE standalone asset, not a sheet.",
+  "source": "art/source/building/gatehouse.png",
+  "editableSource": "art/source/building/gatehouse.ora",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 2
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    127,
+    2,
+    1431,
+    988
+  ],
+  "exportBounds": [
+    8,
+    59,
+    248,
+    240
+  ],
+  "alphaCropThreshold": 16
+}

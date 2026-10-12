@@ -1,0 +1,37 @@
+{
+  "id": "tavern",
+  "prompt": "Use case: historical-scene. Asset type: final isolated game building sprite. Primary request: A welcoming 3 by 3 tile medieval tavern, oak timber framing with cream plaster, rich terracotta gabled roof, carved barrel-shaped hanging sign with no letters, ale barrels and wooden bench at doorway, warm windows. No people. Style/medium: richly detailed original hand-painted 2D medieval strategy game artwork, small precise brushstrokes and charming realistic materials, same warm painterly style as the supplied reference. Camera true orthographic isometric 2:1 ground projection; see two adjacent facades, no perspective convergence. Lighting upper left. Palette cream limestone, oak brown, terracotta, moss greens. Composition centered whole building, generous transparent margin; isolated actual transparent background; only structural footprint and doorstep, no surrounding terrain tile or background. No text, no frame, no watermark, no modern elements, no pixel art, no 3D render. This is ONE standalone building asset, not a sheet.",
+  "source": "art/source/building/tavern.png",
+  "editableSource": "art/source/building/tavern.ora",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceSize": [
+    1374,
+    1145
+  ],
+  "sourceAlphaBounds": [
+    160,
+    10,
+    1249,
+    1123
+  ],
+  "exportBounds": [
+    18,
+    16,
+    237,
+    240
+  ],
+  "alphaCropThreshold": 16
+}

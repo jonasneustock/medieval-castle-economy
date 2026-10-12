@@ -1,0 +1,30 @@
+{
+  "id": "weaver",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: final production browser game building sprite. Create ONE isolated original hand-painted medieval 2D isometric building asset, exact 2:1 ground projection viewed from southeast showing front and right side. Match the reference visual style of rich fine painterly textures, cream limestone, weathered oak, moss/sage accents, subdued terracotta roofs. Warm upper-left lighting, crisp readable silhouette at 256px. Fully TRANSPARENT background and transparent surrounding space. Entire asset fully visible and centered, no labels, no text, no watermark, no user interface. Not 3D render, not pixel art, not vector. Building and specifically needed profession props only, no extraneous landscape, no baked rectangular grass terrain slab. Ground footprint fits the diamond projection. Subject: A medieval weaver's cottage workshop of oak timber and cream plaster, terracotta tiled roof, open front lean-to with clearly visible wooden loom, rolls of cream and sage cloth, baskets of wool. Keep the whole building centered with generous transparent margins.",
+  "source": "art/source/building/weaver.png",
+  "source_sha256": "66e36a200e00b94ecd0fabad3cbe5a3114a46a073679115cde46fe7928e24f0c",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    3,
+    3
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    207,
+    41,
+    1359,
+    998
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/weaver.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}

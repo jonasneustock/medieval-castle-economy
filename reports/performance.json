@@ -1,0 +1,43 @@
+{
+  "runtime": "v24.19.0",
+  "platform": "linux",
+  "generatedAt": "2026-10-12T08:31:15.559Z",
+  "results": [
+    {
+      "residents": 5000,
+      "endingResidents": 5000,
+      "buildings": 1667,
+      "productionBuildings": 1000,
+      "simulatedMinutes": 10,
+      "ticks": 2400,
+      "totalMs": 2356,
+      "medianTickMs": 0.65,
+      "p95TickMs": 1.63,
+      "p99TickMs": 3.53,
+      "worstTickMs": 423.95,
+      "tickBudget1xMs": 250,
+      "tickBudget4xMs": 62.5,
+      "passesSimulationBudget4x": true,
+      "renderFPS": "not measured: supported browser automation unavailable",
+      "notes": "Synthetic non-overlapping large-state deterministic simulation; 20 empty-land chunks, active dairy production and physical deliveries, 40 granaries, adequate initial food and housing. Natural-resource regeneration and browser worker/rendering overhead are not represented."
+    },
+    {
+      "residents": 10000,
+      "endingResidents": 10000,
+      "buildings": 3292,
+      "productionBuildings": 2000,
+      "simulatedMinutes": 10,
+      "ticks": 2400,
+      "totalMs": 5431,
+      "medianTickMs": 1.27,
+      "p95TickMs": 3.15,
+      "p99TickMs": 12.46,
+      "worstTickMs": 1090.68,
+      "tickBudget1xMs": 250,
+      "tickBudget4xMs": 62.5,
+      "passesSimulationBudget4x": true,
+      "renderFPS": "not measured: supported browser automation unavailable",
+      "notes": "Synthetic non-overlapping large-state deterministic simulation; 20 empty-land chunks, active dairy production and physical deliveries, 40 granaries, adequate initial food and housing. Natural-resource regeneration and browser worker/rendering overhead are not represented."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hop_farm.winter",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Production seasonal variant of the reference transparent 2D isometric game sprite. Change only seasonal vegetation/crop props and the specified snow; keep original building, framing, angle, lighting and layout identical. Transparent background with no surrounding landscape, no text, no characters. Original detailed hand-painted medieval style, no pixel/3D. Winter dormancy: hop vines dead and trimmed to bare slender stems on existing wooden poles and ropes, field rows dormant brown with light snow patches. Roof has a light thin patchy snow cap, leaf vines on building bare. No mature leaves or hop cones, empty baskets. Preserve exact farmhouse geometry, roof silhouette, pole positions, fence and plot footprint.",
+  "source": "art/source/building/hop_farm.winter.png",
+  "source_sha256": "92f00d6c55c2c8c6ee459ab022d3a3a124891d13b75cd1154153d2800cbbfc94",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    4,
+    4
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    123,
+    22,
+    1437,
+    1002
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/hop_farm.winter.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}

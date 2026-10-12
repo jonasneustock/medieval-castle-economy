@@ -1,0 +1,37 @@
+{
+  "id": "tower",
+  "prompt": "Use case: historical-scene. Asset type: final isolated game building sprite. Primary request: One medieval castle tower on a 2 by 2 tile footprint, tall square cream limestone crenellated tower, an oak door at ground level, narrow upper arched windows, a small red pennant, worn stones, tiny moss at foot. No surrounding walls or other structures. Style/medium: richly detailed original hand-painted 2D medieval strategy game artwork, small precise brushstrokes and charming realistic materials, same warm painterly style as reference. Camera true orthographic isometric 2:1 ground projection; see two adjacent facades, no perspective convergence. Lighting upper left. Palette cream limestone, oak brown, terracotta, moss greens. Composition centered whole building with transparent margin, isolated actual transparent background; only structural footprint, no surrounding terrain tile or background. No text, frame, watermark, modern elements, pixel art, or 3D render. ONE standalone asset, not a sheet.",
+  "source": "art/source/building/tower.png",
+  "editableSource": "art/source/building/tower.ora",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 2,
+    "height": 2
+  },
+  "sourceSize": [
+    1312,
+    1199
+  ],
+  "sourceAlphaBounds": [
+    289,
+    9,
+    1090,
+    1179
+  ],
+  "exportBounds": [
+    51,
+    16,
+    204,
+    240
+  ],
+  "alphaCropThreshold": 16
+}

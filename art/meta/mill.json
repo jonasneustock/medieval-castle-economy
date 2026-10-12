@@ -1,0 +1,35 @@
+{
+  "id": "mill",
+  "prompt": "Use case: historical-scene. Asset: final production game building sprite. Entirely ORIGINAL richly detailed hand-painted medieval 2D isometric illustration, exact 2:1 projection, camera from southeast, upper-left warm light, muted limestone cream, aged oak, moss green, terracotta. Crisp painterly edges readable at 256 px. Single isolated complete structure on truly TRANSPARENT background, centered with generous margin, no text, watermark, border, other buildings, or surrounding landscape. Not pixel art, not 3D render. Isometric diamond footprint, front faces viewer. WINDMILL: compact oak and cream plaster medieval windmill, stone ground floor, conical terracotta roof, large four-blade timber sail rotor facing southeast, small flour sacks and wheat bundles by oak doorway. Complete sails within frame, three by three footprint, no terrain plinth, no people.\n",
+  "source": "art/source/building/mill.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    525,
+    14,
+    1229,
+    983
+  ],
+  "exportBounds": [
+    47,
+    16,
+    210,
+    240
+  ]
+}

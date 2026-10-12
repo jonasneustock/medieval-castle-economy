@@ -1,0 +1,35 @@
+{
+  "id": "hunting_lodge",
+  "prompt": "Use case: historical-scene. Asset: final production game building sprite. Entirely ORIGINAL richly detailed hand-painted medieval 2D isometric illustration, exact 2:1 projection, camera from southeast, upper-left warm light, muted limestone cream, aged oak, moss green, terracotta. Crisp painterly edges readable at 256 px. Single isolated complete structure on truly TRANSPARENT background, centered with generous margin, no text, watermark, border, other buildings, or surrounding landscape. Not pixel art, not 3D render. Isometric diamond footprint, front faces viewer. HUNTING LODGE: compact rustic oak log hut with mossy shingle roof, oak door, bows and quiver by wall, simple drying rack, a leather hide hung under lean-to, small firewood pile. Three by three footprint, no characters, no dead animal graphic, no surrounding forest or terrain.\n",
+  "source": "art/source/building/hunting_lodge.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    198,
+    9,
+    1340,
+    977
+  ],
+  "exportBounds": [
+    8,
+    37,
+    248,
+    240
+  ]
+}

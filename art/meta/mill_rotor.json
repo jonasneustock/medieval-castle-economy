@@ -1,0 +1,49 @@
+{
+  "id": "mill_rotor",
+  "prompt": "Use case: precise-object-edit. Extract/recreate ONLY the four connected windmill sail arms with the central rotating wooden and iron hub from this original hand-painted mill sprite. Remove the entire windmill building, roof, bags, wheat, ground and all surroundings to true alpha transparent. Precisely preserve the oak beam and creamy linen canvas materials, four blades, upper-left lighting and perspective. Four arms form the same diagonal X around a clear central pivot. Entire rotor isolated and centered with generous transparent margins; no building, no background glow, no text, no watermark. This is a separate transparent animation layer for the same original game mill.\n",
+  "source": "art/source/building/mill_rotor.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5234375,
+    "y": 0.375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 0,
+    "height": 0
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    282,
+    25,
+    1306,
+    1012
+  ],
+  "exportBounds": [
+    37,
+    9,
+    218,
+    183
+  ],
+  "pivot": {
+    "x": 134,
+    "y": 96
+  },
+  "placement": {
+    "basePivotX": 134,
+    "basePivotY": 96,
+    "matchingBase": "assets/building/mill.base.png",
+    "baseAnchorX": 128,
+    "baseAnchorY": 240
+  },
+  "generationIntent": "rotor-extraction-edit",
+  "derivedFrom": "art/source/building/mill.png",
+  "geometryNote": "Separate generated rotor layer; hub aligned to edited mill base pivot. Rotate at runtime around metadata pivot."
+}

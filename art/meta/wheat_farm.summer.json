@@ -1,0 +1,54 @@
+{
+  "id": "wheat_farm.summer",
+  "prompt": "Use case: lighting-weather seasonal state edit. Edit only seasonal vegetation and ground coverings in this exact original hand-painted isometric game sprite. Preserve the EXACT hut/shed architecture, gate, fences, barrel/baskets, positions of trees/crop rows, camera, 2:1 projection, lighting, footprint and framing. Keep alpha background truly transparent. Do not add background, people, text, scene elements, or change layout. Maintain original painterly detail and palette. SUMMER wheat field: replace golden ripe wheat by lush medium-height GREEN growing wheat in the same rows, with immature green heads; retain hut, fence, gate geometry exactly unchanged.\n",
+  "source": "art/source/building/wheat_farm.summer.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 4,
+    "height": 4
+  },
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaBounds": [
+    276,
+    0,
+    1500,
+    867
+  ],
+  "exportBounds": [
+    7,
+    70,
+    248,
+    240
+  ],
+  "derivedFrom": "art/source/building/wheat_farm.png",
+  "generationIntent": "seasonal-state-edit",
+  "alignment": "Full source resized with original reference scale; alpha padding retained to avoid seasonal edge clipping",
+  "sourceCropBounds": [
+    278,
+    3,
+    1498,
+    864
+  ],
+  "season": "summer",
+  "geometryNote": "Fences, gate, shed and crop/tree positions retained visually. Generative edits are not pixel-identical.",
+  "exportScaledSourceSize": [
+    349,
+    174
+  ],
+  "exportOffset": [
+    -47,
+    70
+  ]
+}

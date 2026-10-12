@@ -1,0 +1,35 @@
+{
+  "id": "marketplace",
+  "prompt": "Use case: historical-scene. Asset: final production game building sprite. Entirely ORIGINAL richly detailed hand-painted medieval 2D isometric illustration, exact 2:1 projection, camera from southeast, upper-left warm light, muted limestone cream, aged oak, moss green, terracotta. Crisp painterly edges readable at 256 px. Single isolated complete structure on truly TRANSPARENT background, centered with generous margin, no text, watermark, border, other buildings, or surrounding landscape. Not pixel art, not 3D render. Isometric diamond footprint, front faces viewer. MARKETPLACE: compact medieval open-air trading market, three small oak vendor stalls gathered in diamond plaza, cream and faded moss green cloth awnings, wooden crates, bread baskets, cloth rolls, jars, a small central stone well. Three by three footprint, no people, no signage or words, no outside terrain.\n",
+  "source": "art/source/building/marketplace.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    87,
+    16,
+    1450,
+    1003
+  ],
+  "exportBounds": [
+    8,
+    66,
+    248,
+    240
+  ]
+}

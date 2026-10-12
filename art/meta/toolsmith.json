@@ -1,0 +1,30 @@
+{
+  "id": "toolsmith",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: final production browser game building sprite. Create ONE isolated original hand-painted medieval 2D isometric building asset, exact 2:1 ground projection viewed from southeast showing front and right side. Match the reference visual style of rich fine painterly textures, cream limestone, weathered oak, moss/sage accents, subdued terracotta roofs. Warm upper-left lighting, crisp readable silhouette at 256px. Fully TRANSPARENT background and transparent surrounding space. Entire asset fully visible and centered, no labels, no text, no watermark, no user interface. Not 3D render, not pixel art, not vector. Building and specifically needed profession props only, no extraneous landscape, no baked rectangular grass terrain slab. Ground footprint fits the diamond projection. Subject: A medieval toolsmith workshop of cream plaster and dark weathered oak, terracotta pitched roof, open front forge alcove with anvil, hammers, completed axes and tools displayed in rack, bellows, iron ingots and timber. No blacksmith character baked in. Entire workshop centered with generous transparent margins.",
+  "source": "art/source/building/toolsmith.png",
+  "source_sha256": "7bed5aa359750c3e5c2145c92bb5d20344b91d932db4a0a3fb12ceafccb7c7c6",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    3,
+    3
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    144,
+    17,
+    1403,
+    1000
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/toolsmith.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}

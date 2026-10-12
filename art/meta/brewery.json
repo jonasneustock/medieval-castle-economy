@@ -1,0 +1,30 @@
+{
+  "id": "brewery",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: final production browser game building sprite. Create ONE isolated original hand-painted medieval 2D isometric building asset, exact 2:1 ground projection viewed from southeast showing front and right side. Match the reference visual style of rich fine painterly textures, cream limestone, weathered oak, moss/sage accents, subdued terracotta roofs. Warm upper-left lighting, crisp readable silhouette at 256px. Fully TRANSPARENT background and transparent surrounding space. Entire asset fully visible and centered, no labels, no text, no watermark, no user interface. Not 3D render, not pixel art, not vector. Building and specifically needed profession props only, no extraneous landscape, no baked rectangular grass terrain slab. Ground footprint fits the diamond projection. Subject: A medieval brewery of cream limestone and weathered oak with terracotta tiled roof, tall slender kiln chimney, open front lean-to displaying large wooden brewing vat, copper kettle, oak barrels and sacks of grain. Visibly a brewery rather than tavern, no signs or characters, no baked smoke. Entire building centered with generous transparent margins.",
+  "source": "art/source/building/brewery.png",
+  "source_sha256": "9439ff0b4c3289bb6f93dfd751e536840ec8e1abe7f49c57c585327389e63fd6",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    3,
+    3
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    192,
+    2,
+    1358,
+    1008
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/brewery.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "apple_orchard",
+  "prompt": "Use case: historical-scene. Asset: final production game building sprite. Entirely ORIGINAL richly detailed hand-painted medieval 2D isometric illustration, exact 2:1 projection, camera from southeast, upper-left warm light, muted limestone cream, aged oak, moss green, terracotta. Crisp painterly edges readable at 256 px. Single isolated complete structure on truly TRANSPARENT background, centered with generous margin, no text, watermark, border, other buildings, or surrounding landscape. Not pixel art, not 3D render. Isometric diamond footprint, front faces viewer. APPLE ORCHARD: four by four diamond plot, four small mature apple trees with red fruit, low small oak harvest shed with green weathered shingle roof in rear corner, stacked wicker fruit baskets, grass and narrow rows only within fenced functional orchard footprint. No people, no outside terrain.\n",
+  "source": "art/source/building/apple_orchard.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 4,
+    "height": 4
+  },
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaBounds": [
+    247,
+    8,
+    1527,
+    860
+  ],
+  "exportBounds": [
+    8,
+    80,
+    248,
+    240
+  ]
+}

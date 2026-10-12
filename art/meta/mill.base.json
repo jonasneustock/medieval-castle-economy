@@ -1,0 +1,57 @@
+{
+  "id": "mill.base",
+  "prompt": "Use case: precise-object-edit. From this exact original mill sprite, REMOVE all four large wooden cloth sail arms, their radial beams and the projecting central rotating hub. Reveal and reconstruct the stationary windmill roof and facade beneath them. Keep a small dark stationary pivot bearing at the exact former center of rotor. Preserve EXACT mill architecture, roof shape, body, bags, wheat bundle, door, windows, stone base, original placement, scale, pixel framing, isometric camera and upper-left light. Do not recenter or resize the building; removed sail area becomes alpha transparent. No background glow, no other objects, no text. Same hand-painted original game art and transparent background.\n",
+  "source": "art/source/building/mill.base.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 3,
+    "height": 3
+  },
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceAlphaBounds": [
+    505,
+    20,
+    1095,
+    988
+  ],
+  "exportBounds": [
+    42,
+    15,
+    179,
+    240
+  ],
+  "derivedFrom": "art/source/building/mill.png",
+  "generationIntent": "remove-sails-edit",
+  "alignment": "Full source resized with original reference scale; alpha padding retained to avoid seasonal edge clipping",
+  "sourceCropBounds": [
+    525,
+    14,
+    1229,
+    983
+  ],
+  "rotorPivot": {
+    "x": 134,
+    "y": 96
+  },
+  "geometryNote": "Generated removal edit retains body composition, but roof and hub are slightly repainted. Pivot measured on edited base.",
+  "exportScaledSourceSize": [
+    356,
+    237
+  ],
+  "exportOffset": [
+    -75,
+    11
+  ]
+}

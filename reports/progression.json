@@ -1,0 +1,40 @@
+{
+  "seed": "City acceptance",
+  "passed": true,
+  "stage": 3,
+  "buildingTypesPresent": 31,
+  "missingTypes": [],
+  "simulatedMinutes": 348,
+  "population": 1016,
+  "food": 1970,
+  "gold": 30.83416666666667,
+  "buildings": 334,
+  "saveRoundtrip": true,
+  "milestones": [
+    {
+      "stage": 1,
+      "minute": 7,
+      "population": 56,
+      "food": 57,
+      "gold": 407.78383333333335,
+      "buildings": 19
+    },
+    {
+      "stage": 2,
+      "minute": 60,
+      "population": 200,
+      "food": 997,
+      "gold": 91.39666666666666,
+      "buildings": 81
+    },
+    {
+      "stage": 3,
+      "minute": 250,
+      "population": 1016,
+      "food": 1971,
+      "gold": 654.4741666666666,
+      "buildings": 314
+    }
+  ],
+  "method": "Scripted ordinary build/trade/ration/tax/expansion commands from exact opening conditions. No resource or population injection. This is simulation progression, not browser tutorial usability validation."
+}

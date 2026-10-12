@@ -1,0 +1,54 @@
+{
+  "id": "wheat_farm.winter",
+  "prompt": "Use case: lighting-weather seasonal state edit. Edit only seasonal vegetation and ground coverings in this exact original hand-painted isometric game sprite. Preserve the EXACT hut/shed architecture, gate, fences, barrel/baskets, positions of trees/crop rows, camera, 2:1 projection, lighting, footprint and framing. Keep alpha background truly transparent. Do not add background, people, text, scene elements, or change layout. Maintain original painterly detail and palette. WINTER dormant wheat field: remove tall wheat to bare soil and short brown harvested stubble; sparse light snow dusting soil, fence rails and hut roof. Cold dormant field; structures exactly unchanged.\n",
+  "source": "art/source/building/wheat_farm.winter.png",
+  "generationTool": "image_gen.imagegen",
+  "provenance": "original generated artwork",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.9375
+  },
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "footprint": {
+    "width": 4,
+    "height": 4
+  },
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaBounds": [
+    277,
+    0,
+    1504,
+    869
+  ],
+  "exportBounds": [
+    8,
+    70,
+    249,
+    241
+  ],
+  "derivedFrom": "art/source/building/wheat_farm.png",
+  "generationIntent": "seasonal-state-edit",
+  "alignment": "Full source resized with original reference scale; alpha padding retained to avoid seasonal edge clipping",
+  "sourceCropBounds": [
+    278,
+    3,
+    1498,
+    864
+  ],
+  "season": "winter",
+  "geometryNote": "Fences, gate, shed and crop/tree positions retained visually. Generative edits are not pixel-identical.",
+  "exportScaledSourceSize": [
+    349,
+    174
+  ],
+  "exportOffset": [
+    -47,
+    70
+  ]
+}

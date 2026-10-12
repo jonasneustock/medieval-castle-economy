@@ -1,0 +1,389 @@
+{
+  "exports": [
+    {
+      "id": "ui/stage_hamlet",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        0,
+        0,
+        384,
+        276
+      ],
+      "crop": [
+        32,
+        47,
+        354,
+        267
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/stage_village",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        384,
+        0,
+        768,
+        276
+      ],
+      "crop": [
+        31,
+        34,
+        371,
+        268
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/stage_town",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        768,
+        0,
+        1152,
+        276
+      ],
+      "crop": [
+        22,
+        19,
+        351,
+        276
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/stage_city",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        1152,
+        0,
+        1536,
+        276
+      ],
+      "crop": [
+        6,
+        17,
+        369,
+        276
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/population",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        0,
+        276,
+        384,
+        532
+      ],
+      "crop": [
+        77,
+        9,
+        313,
+        255
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/popularity",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        384,
+        276,
+        768,
+        532
+      ],
+      "crop": [
+        64,
+        8,
+        316,
+        251
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/housing",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        768,
+        276,
+        1152,
+        532
+      ],
+      "crop": [
+        43,
+        0,
+        312,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/food",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        1152,
+        276,
+        1536,
+        532
+      ],
+      "crop": [
+        35,
+        0,
+        325,
+        246
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/tax",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        0,
+        532,
+        384,
+        764
+      ],
+      "crop": [
+        38,
+        0,
+        365,
+        215
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/religion",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        384,
+        532,
+        768,
+        764
+      ],
+      "crop": [
+        71,
+        2,
+        306,
+        232
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/entertainment",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        768,
+        532,
+        1152,
+        764
+      ],
+      "crop": [
+        66,
+        0,
+        303,
+        232
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/ale_service",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        1152,
+        532,
+        1536,
+        764
+      ],
+      "crop": [
+        102,
+        3,
+        316,
+        221
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/transport",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        0,
+        764,
+        384,
+        1024
+      ],
+      "crop": [
+        95,
+        0,
+        288,
+        239
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/storage",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        384,
+        764,
+        768,
+        1024
+      ],
+      "crop": [
+        39,
+        25,
+        349,
+        228
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/worker",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        768,
+        764,
+        1152,
+        1024
+      ],
+      "crop": [
+        65,
+        0,
+        322,
+        241
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "ui/pause",
+      "source": "art/source/ui/icons.png",
+      "cell": [
+        1152,
+        764,
+        1536,
+        1024
+      ],
+      "crop": [
+        119,
+        5,
+        268,
+        238
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "frameSize": [
+        64,
+        64
+      ]
+    }
+  ],
+  "generator": "Original built-in imagegen artwork, deterministic extraction"
+}

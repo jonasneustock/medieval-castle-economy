@@ -1,0 +1,30 @@
+{
+  "id": "hop_farm.summer",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Production seasonal variant of the reference transparent 2D isometric game sprite. Change only seasonal vegetation/crop props and the specified snow; keep original building, framing, angle, lighting and layout identical. Transparent background with no surrounding landscape, no text, no characters. Original detailed hand-painted medieval style, no pixel/3D. Summer growth: attached hop vines densely climbing their existing poles with fresh abundant deep sage-green leaves, but no ripe hop cones and no harvest-filled baskets. Preserve exact farmhouse geometry, roof, poles, ropes, fence and plot footprint. Visible growth state change, not merely tint.",
+  "source": "art/source/building/hop_farm.summer.png",
+  "source_sha256": "2ede7d7dced2ea91101d03a22869a9bafca572ade4ddac81d8e042e031558cf8",
+  "frame_size": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    240
+  ],
+  "footprint": [
+    4,
+    4
+  ],
+  "projection": "2:1 isometric",
+  "light_direction": "upper-left",
+  "crop_bbox": [
+    100,
+    8,
+    1462,
+    1012
+  ],
+  "transparent": true,
+  "editable_source": "art/source/building/hop_farm.summer.ora",
+  "editability": "Layered raster source: artwork and transparent background. Not inferred vector geometry."
+}
