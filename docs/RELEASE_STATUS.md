@@ -24,7 +24,7 @@ Incomplete/unvalidated release gates:
 * Final original-art audit, animation integration and automatic wall/corner/gatehouse connection graphics. Base wall/gatehouse artwork exists, but full connection treatment is unfinished.
 * Broader balancing review and elimination of cold-route spikes.
 
-GitHub status: authenticated account jonasneustock inspected; no matching game repository identified. Available connector tools cannot create a repository. No GitHub push has occurred. An empty private repository URL is required.
+GitHub status: source, tests, build scripts, compiled distribution and runtime artwork have been pushed to https://github.com/jonasneustock/medieval-castle-economy on main. This repository is public. The remaining images are packaged losslessly in art/runtime/remaining-images.json.gz and restored by npm ci; a clean extraction restored 510 image paths and passed validation for 294 assets. Editable high-resolution masters remain in the saved development ZIP. This is still development build 0.9.0; the acceptance gates below remain open.
 
 The reserved private Site has not been deployed; release publication is held because the user's acceptance gates are unmet.
 

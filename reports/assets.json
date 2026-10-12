@@ -1,12 +1,14 @@
 {
   "assets": 294,
   "required": 236,
-  "editableSourceFiles": 61,
+  "editableSourceFiles": 0,
   "atlasSize": [
     2048,
     4096
   ],
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "Editable masters are retained in the saved handoff archive; full source audit not performed for this code-only snapshot."
+  ],
   "visualReview": "Individual building/event images and worker contact sheets reviewed during generation. Integrated Phaser/browser visual review still required."
 }
