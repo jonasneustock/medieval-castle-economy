@@ -59,3 +59,7 @@ src/sim/: pure game rules; src/workers/: kernels; src/coordinator.ts: state owne
 No public open-source license has been selected. Original source and artwork are provided to the project owner.
 
 Known art detail gap: fishing, livestock and textile-specific work loops still reuse generic farmer/processor actions; dedicated activity animations and the final integrated art audit remain incomplete.
+
+## Editable artwork masters
+
+This GitHub code snapshot includes production artwork, prompts and runtime assets. High-resolution editable PNG/OpenRaster masters remain in the owner's saved Medieval_Castle_Economy_0.9.0_Development.zip handoff archive (SHA-256 47e2a86bc295b2f67205fabe318356d9e767e7cec38cfbe5b81667f31161008b). Restore its art/source folder before running original-generation exporters or a full source-art audit. Those masters are excluded from this code push to avoid delaying source delivery.

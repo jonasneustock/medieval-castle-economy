@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'./tests',testMatch:'browser.spec.mjs',timeout:90000,use:{baseURL:process.env.GAME_URL||'http://localhost:4173',trace:'retain-on-failure'},projects:[{name:'chromium',use:{...devices['Desktop Chrome']}},{name:'firefox',use:{...devices['Desktop Firefox']}},{name:'webkit',use:{...devices['Desktop Safari']}}],reporter:[['list'],['html',{outputFolder:'reports/playwright',open:'never'}]]});
